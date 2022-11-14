@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Our Services",
+  "sectionDescription": "We are providing quality web, mobile app and Grpahics desinging services.",
+  "services": [
+    {
+      "imgSrc": "../../images/service.webp",
+      "title": "This the first card",
+      "cardDecription": "We are providing quality web Developmnet services."
+    },
+    {
+      "imgSrc": "../../images/service.webp",
+      "title": "This the first card",
+      "cardDecription": "We are providing quality web Developmnet services."
+    },
+    {
+      "imgSrc": "../../images/service.webp",
+      "title": "This the first card",
+      "cardDecription": "We are providing quality web Developmnet services."
+    }
+
+  ]
+
+}

@@ -1,0 +1,23 @@
+<div class="services">
+  <div class="services__heading">
+    {% include "@atoms/text/heading/heading.twig" with {
+      "title": sectionTitle,
+      "heading": "h2",
+      "modifier": "head"
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "tag": "strong",
+      "text": sectionDescription,
+      "modifier": ""
+    } %}
+  </div>
+  <div class="services-list">
+    {% for service in services %}
+        {% include "@molecules/service-card/service-card.twig" with {
+          "imgSrc": service.imgSrc,
+          "title": service.title,
+          "cardDecription": service.cardDecription
+        } %}
+    {% endfor %}
+  </div>
+</div>

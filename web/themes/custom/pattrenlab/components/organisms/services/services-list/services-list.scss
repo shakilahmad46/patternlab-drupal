@@ -1,0 +1,15 @@
+@import '../../../config.all';
+.services {
+  &__heading {
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+}
