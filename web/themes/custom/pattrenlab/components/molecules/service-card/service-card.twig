@@ -1,0 +1,19 @@
+<div class="service-card">
+  {% include "@atoms/image/image.twig" with {
+    "source": "../../../images/service.webp",
+    "alt": "Service Image",
+    "modifier": "img-hover"
+  } %}
+  <div class="service-card__content">
+    {% include "@atoms/text/heading/heading.twig" with {
+      "heading": "h3",
+      "title": "This the first card"
+    } %}
+    <p> {{ cardDecription }} </p>
+    {% include "@atoms/links/links.twig" with {
+      "link": "https:/fb.com/",
+      "label": "Read More",
+      "modifier": "link-gold"
+    } %}
+  </div>
+</div>
