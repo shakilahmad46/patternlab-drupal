@@ -1,0 +1,11 @@
+.para {
+  &-gold {
+    color: var(--c-gold);
+  }
+  &-secondery {
+    color: var(--c-secondary);
+  }
+  &-large {
+    font-size: 20px;
+  }
+}

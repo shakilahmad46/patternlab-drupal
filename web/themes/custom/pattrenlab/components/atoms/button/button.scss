@@ -1,0 +1,25 @@
+.btn {
+  background-color: var(--c-primary);
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+  min-width: 150px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  border: none;
+  &--gold {
+    background-color: var(--c-secondary);
+  }
+  &--gold-light {
+    background-color: var(--c-secondary-light);
+  }
+  &--red {
+    background-color: var(--c-red);
+  }
+}
+
+.btn.secondary {
+  border: 2px solid #1e6dfd;
+  background-color: #fff;
+  color: #1e6dfd;
+}

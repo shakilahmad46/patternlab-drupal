@@ -1,0 +1,14 @@
+@import '../../config/links';
+.link {
+  @include link-clear;
+  color: var(--c-black);
+  &-gold {
+    color: var(--c-secondary);
+  }
+  &-gold-light {
+    color: var(--c-secondary-light);
+  }
+  &-red {
+    color: var(--c-red);
+  }
+}
