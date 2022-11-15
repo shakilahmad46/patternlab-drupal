@@ -1,19 +1,42 @@
+{{ attach_library('pattrenlab/links')}}
+
 <div class="service-card">
   {% include "@atoms/image/image.twig" with {
-    "source": "../../../images/service.webp",
+    "source": imgSrc,
+    "alt": "Service Image",
+    "modifier": "img-hover img-fix-height"
+  } %}
+  <div class="service-card__content">
+    {% include "@atoms/text/heading/heading.twig" with {
+      "heading": "h3",
+      "title": title
+    } %}
+    <p> {{ cardDecription }} </p>
+    {% include "@atoms/links/links.twig" with {
+      "link": path,
+      "label": "Read More",
+      "modifier": "link-gold"
+    } %}
+  </div>
+</div>
+{# 
+{{ attach_library('pattrenlab.card') }}
+<div {{ attributes.addClass("service-card") }}>
+  {% include "@atoms/image/image.twig" with {
+    "source": content.field_image.0['#markup'],
     "alt": "Service Image",
     "modifier": "img-hover"
   } %}
   <div class="service-card__content">
     {% include "@atoms/text/heading/heading.twig" with {
       "heading": "h3",
-      "title": "This the first card"
+      "title": label
     } %}
-    <p> {{ cardDecription }} </p>
+    <p> {{ content.body }} </p>
     {% include "@atoms/links/links.twig" with {
       "link": "https:/fb.com/",
       "label": "Read More",
       "modifier": "link-gold"
     } %}
   </div>
-</div>
+</div> #}

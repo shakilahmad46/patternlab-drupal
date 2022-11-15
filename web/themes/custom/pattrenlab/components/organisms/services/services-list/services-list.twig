@@ -1,3 +1,5 @@
+{{ attach_library('pattrenlab/services-list')}}
+
 <div class="services">
   <div class="services__heading">
     {% include "@atoms/text/heading/heading.twig" with {
@@ -12,12 +14,22 @@
     } %}
   </div>
   <div class="services-list">
-    {% for service in services %}
+{# {{ dump(drupal_view_rows) }} #}
+  {% if drupal_view_rows %}
+    {% for row in drupal_view_rows %}
+      {{- row.content -}}
+    {% endfor %}
+  {% endif %}
+
+  {# only for pattrenlab #}
+    {% if services %}
+      {% for service in services %}
         {% include "@molecules/service-card/service-card.twig" with {
           "imgSrc": service.imgSrc,
           "title": service.title,
           "cardDecription": service.cardDecription
         } %}
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div>

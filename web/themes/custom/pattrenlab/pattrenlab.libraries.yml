@@ -7,6 +7,31 @@ global:
       attributes:
         type: module
 
+services-list:
+  css:
+    theme:
+      dist/components/organisms/services/services-list/services-list.css: {}
+
+service-card:
+  css:
+    theme:
+      dist/components/molecules/service-card/service-card.css: {}
+      
+buttons:
+  css:
+    theme:
+      dist/components/atoms/button/button.css: {}
+
+links:
+  css:
+    theme:
+      dist/components/atoms/links/links.css: {}
+
+image:
+  css:
+    theme:
+      dist/components/atoms/image/image.css: {}
+
 # tailwind:
 #   css:
 #     theme:

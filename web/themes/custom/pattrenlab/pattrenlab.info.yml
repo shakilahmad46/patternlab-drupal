@@ -13,7 +13,7 @@ regions:
 
 libraries:
   - core/normalize
-  # - pattrenlab/global
+  - pattrenlab/global
   # - pattrenlab/tailwind
 
 components:
