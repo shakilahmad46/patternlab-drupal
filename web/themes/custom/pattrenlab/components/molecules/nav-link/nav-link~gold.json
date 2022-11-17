@@ -1,0 +1,22 @@
+{
+  "navVariant": "navbar-nav__gold",
+    "links": [
+      {
+        "url": "https://fb.com",
+        "title": "Home"
+      },
+      {
+        "url": "#",
+        "title": "About"
+      }
+      ,
+      {
+        "url": "#",
+        "title": "Test"
+      },
+      {
+        "url": "#",
+        "title": "Contact"
+      }
+    ]
+}

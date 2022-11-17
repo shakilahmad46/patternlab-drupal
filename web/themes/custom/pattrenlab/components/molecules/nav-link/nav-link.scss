@@ -1,0 +1,39 @@
+@import '../../config/links';
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  &-item {
+    padding: 3px 8px;
+  }
+  &-link {
+    @include link-clear;
+    font-size: 16px;
+    color: var(--c-secondary);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.9;
+      border-bottom: 2px solid var(--c-black);
+    }
+  }
+  &__dark {
+    background-color: var(--c-black);
+    a {
+      &:hover {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+  &__gold {
+    background-color: var(--c-secondary);
+    a {
+      color: white;
+      &:hover {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+}
