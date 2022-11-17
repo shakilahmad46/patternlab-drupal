@@ -32,6 +32,16 @@ image:
     theme:
       dist/components/atoms/image/image.css: {}
 
+nav-link:
+  css:
+    theme:
+      dist/components/molecules/nav-link/nav-link.css: {}
+
+navbar:
+  css:
+    theme:
+      dist/components/templates/navbar/navbar.css: {}
+
 # tailwind:
 #   css:
 #     theme:

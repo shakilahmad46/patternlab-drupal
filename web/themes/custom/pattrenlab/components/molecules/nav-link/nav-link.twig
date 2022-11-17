@@ -1,0 +1,8 @@
+{{ attach_library('pattrenlab/nav-link')}}
+<ul class="navbar-nav {{ navVariant}}">
+{% for link in links  %}
+  <li class="navbar-nav-item">
+    <a href="{{ link.url }}" class="navbar-nav-link {{ modifier }}"> {{ link.title }} </a>
+  </li>
+{% endfor %}
+</ul>

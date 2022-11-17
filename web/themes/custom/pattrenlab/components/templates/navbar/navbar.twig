@@ -1,0 +1,36 @@
+{{ attach_library('pattrenlab/navbar') }}
+<header class="header">
+  <div class="header__container">
+    <div class="header__branding">
+      {% if drupal_logo %}
+        {{ drupal_logo }}
+      {% else %}
+        {% include "@atoms/image/image.twig" with {
+          "source": "https://lh3.googleusercontent.com/1_zuTrfPYKeiyDbvjHcuEATBnqZ6_yT6xRjKfg8P-DCwNYSiXpLDeOBfV92AO0fIPnd8OP0KLAzu9Eed_kiW1Vx9RPlPOvTfna8u",
+          "alt": "logo",
+          "modifier": "img-logo"
+        } %}
+      {% endif %}
+    </div>
+
+    <nav class="navbar">
+      <button class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse" >
+      {% if drupal_menu %}
+        {{ drupal_menu }}
+      {% endif %}
+      {% if links %}
+        {% include "@molecules/nav-link/nav-link.twig" with {
+          "links": links,
+          "navVariant": "navbar-nav__gold"
+        } %}
+      {% endif %}
+      </div>
+    </nav>
+  </div>
+</header>
