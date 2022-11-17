@@ -14,6 +14,17 @@
   border: 1px solid #e6e2df;
   overflow: hidden;
   margin: 20px 0;
+  &--horiz {
+    display: flex;
+    flex-direction: row;
+    max-width: 48%;
+    @media (max-width: 590px) {
+      flex-direction: column;
+    }
+    @media (max-width: 1243px) {
+      max-width: 98%;
+    }
+  }
   &__link {
   }
   &__title {

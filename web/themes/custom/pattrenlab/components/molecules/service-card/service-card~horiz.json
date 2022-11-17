@@ -3,5 +3,5 @@
   "title": "This the first card",
   "cardDecription": "We are providing quality web Developmnet services.",
   "path": "https://fb.com/",
-  "modifier": ""
+  "modifier": "service-card--horiz"
 }
