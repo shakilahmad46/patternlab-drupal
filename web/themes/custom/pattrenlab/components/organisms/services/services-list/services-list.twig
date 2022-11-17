@@ -27,7 +27,8 @@
         {% include "@molecules/service-card/service-card.twig" with {
           "imgSrc": service.imgSrc,
           "title": service.title,
-          "cardDecription": service.cardDecription
+          "cardDecription": service.cardDecription,
+          "modifier": modifier,
         } %}
       {% endfor %}
     {% endif %}
