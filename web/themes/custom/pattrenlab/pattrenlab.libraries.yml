@@ -1,6 +1,7 @@
 global:
   css:
     theme:
+      dist/components/atoms/text/heading/heading.css: {}
       dist/components/global.css: {}
   js:
     dist/components/main.js:
@@ -41,6 +42,16 @@ navbar:
   css:
     theme:
       dist/components/templates/navbar/navbar.css: {}
+
+text-card:
+  css:
+    theme:
+      dist/components/molecules/text-card/text-card.css: {}
+
+banner:
+  css:
+    theme:
+      dist/components/organisms/banner/banner.css: {}
 
 # tailwind:
 #   css:
