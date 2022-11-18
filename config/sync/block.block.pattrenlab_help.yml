@@ -1,0 +1,22 @@
+uuid: 872fb649-cda3-48a1-8837-8ff293442a9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: VV9kqYMqLSoPSMw-XVpo0auKK0RfnbQTkqYPVQxqaV0
+id: pattrenlab_help
+theme: pattrenlab
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

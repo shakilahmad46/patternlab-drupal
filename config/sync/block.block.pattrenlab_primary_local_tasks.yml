@@ -1,0 +1,22 @@
+uuid: 77ba75a1-7644-4196-a056-1e8a2acd4ab3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: pattrenlab_primary_local_tasks
+theme: pattrenlab
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

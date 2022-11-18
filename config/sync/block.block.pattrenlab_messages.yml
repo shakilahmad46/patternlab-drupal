@@ -1,0 +1,22 @@
+uuid: 4d0a865f-d11c-484c-a3af-2d2c8593b4ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: KfyaTPRJEcAyy2e5AxEfWQnuHcn4WrfvcWek7lSmHZQ
+id: pattrenlab_messages
+theme: pattrenlab
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
