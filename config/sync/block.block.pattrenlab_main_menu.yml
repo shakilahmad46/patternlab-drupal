@@ -1,0 +1,27 @@
+uuid: dd7f2938-b192-4047-8bdd-0d616651f4ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: _uH7wnTwQN9LR9emIpwucAsiGiqgy6xNxBzEjrhF4SM
+id: pattrenlab_main_menu
+theme: pattrenlab
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

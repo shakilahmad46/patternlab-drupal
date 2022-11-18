@@ -1,0 +1,20 @@
+uuid: 92ac4af9-694f-4740-9449-1766f97c3d78
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: WImvmaBdDpwIqobqbDWebBnyxssRvrNEnZSQbOsvOe4
+id: pattrenlab_page_title
+theme: pattrenlab
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

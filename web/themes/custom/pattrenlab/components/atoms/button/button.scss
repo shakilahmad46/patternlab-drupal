@@ -16,6 +16,9 @@
   &--red {
     background-color: var(--c-red);
   }
+  &--fit {
+    width: fit-content;
+  }
 }
 
 .btn.secondary {

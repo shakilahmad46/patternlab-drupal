@@ -1,0 +1,23 @@
+uuid: 4f0932c6-2bc1-4eaf-a21f-453f0d541914
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - pattrenlab
+_core:
+  default_config_hash: kF9mVmsseaqxC_a3r0oTNT2MOdiEdr9-6lMUfIa18eI
+id: pattrenlab_search_form_wide
+theme: pattrenlab
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

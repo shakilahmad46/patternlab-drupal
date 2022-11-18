@@ -45,7 +45,7 @@ web/themes/custom/drupalastic/vendor/*
 # custom
 php.ini
 *.xml
-.lando.yml
+# .lando.yml
 /web/.csslintrc
 /web/.editorconfig
 /web/.eslintignore
