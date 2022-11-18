@@ -1,13 +1,15 @@
+{{ attach_library('pattrenlab/banner') }}
 <div class="banner">
   <div class="banner-content">
     {% include "@molecules/text-card/text-card.twig" with {
       "title": title,
-      "text": text
+      "text": text,
+      "tag": "h1"
     } %}
   </div>
   <div class="banner-media">
     {% include "@atoms/image/image.twig" with {
-      "source": src,
+      "source": source,
       "alt": "Banner Image"
     } %}
   </div>
