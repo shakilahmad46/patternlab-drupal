@@ -1,0 +1,14 @@
+<div class="banner">
+  <div class="banner-content">
+    {% include "@molecules/text-card/text-card.twig" with {
+      "title": title,
+      "text": text
+    } %}
+  </div>
+  <div class="banner-media">
+    {% include "@atoms/image/image.twig" with {
+      "source": src,
+      "alt": "Banner Image"
+    } %}
+  </div>
+</div>
