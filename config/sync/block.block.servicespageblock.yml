@@ -1,0 +1,25 @@
+uuid: 41c5a070-0a40-4431-8c0d-ab2fd04b1d48
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:e1f440d4-ce1a-4fcc-94f8-702a412fbe0d'
+  module:
+    - block_content
+  theme:
+    - pattrenlab
+id: servicespageblock
+theme: pattrenlab
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:e1f440d4-ce1a-4fcc-94f8-702a412fbe0d'
+settings:
+  id: 'block_content:e1f440d4-ce1a-4fcc-94f8-702a412fbe0d'
+  label: 'Services Page Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
